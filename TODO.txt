@@ -1,0 +1,9 @@
+Somewhat in order of priority:
+- write more test cases for FracCalc
+- the shell scripts in the scripts/ directory might not be easy to modify and scale, maybe consider rewriting in python/ruby etc.
+- create a scripts/run_all_tests.sh
+- create a test fixutre for the VisCalc assignment
+- figure out a way to turn the tests into html reports (this can be done with ANT: http://ideoplex.com/id/25/ant-and-junit, http://junit.sourceforge.net/doc/faq/faq.htm, http://www.jaredrichardson.net/articles/junit-tutorial.html)
+- write a basic webserver to accept students programs, test them, generate html reports, and display them to the user. maybe enhance with these features
+	- authentication(maybe just a special token for each student?)
+	- both single and multiple file upload
