@@ -4,6 +4,7 @@ Somewhat in order of priority:
 - create a scripts/run_all_tests.sh
 - create a test fixutre for the VisCalc assignment
 - figure out a way to turn the tests into html reports (this can be done with ANT: http://ideoplex.com/id/25/ant-and-junit, http://junit.sourceforge.net/doc/faq/faq.htm, http://www.jaredrichardson.net/articles/junit-tutorial.html)
-- write a basic webserver to accept students programs, test them, generate html reports, and display them to the user. maybe enhance with these features
-	- authentication(maybe just a special token for each student?)
-	- both single and multiple file upload
+- add to webserver
+    - logging (implement Log function)
+    - multiple file upload
+    - make login request(/proccesslogin) a POST instead of a GET so the pw doesnt show up in the URL
